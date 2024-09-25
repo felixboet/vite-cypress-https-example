@@ -1,0 +1,17 @@
+{
+  "name": "vite-cypress-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:e2e": "cypress open",
+    "test:e2e:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.14.2",
+    "vite": "^5.4.1"
+  }
+}
